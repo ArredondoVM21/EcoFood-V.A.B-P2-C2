@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7efd2;
+}
+
+.Barra-Nav {
+  background-color: #4b5e39;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px; /* espacio de la imagen y el texto */
+}
+
+.logo span {
+  font-size: 28px; /* mantiene el tamaño del texto */
+  font-weight: bold;
+}
+
+.Links-Nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.Links-Nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+/* botones */
+.btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.iniciar-sesion-btn {
+  background-color: white;
+  color: black !important; /* para forzar el color negro en el texto ya que me salia todo blanco*/
+  display: inline-block; /* asegura que respete el padding */
+  text-align: center;
+}
+
+.registrar-btn {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+/*imagen y texto de quienes somos*/
+
+.contenido-quienes-somos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.imagen1 img {
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.texto-quienes-somos {
+  flex: 1;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #A5A97B; /* fondo del cuadro */
+  padding: 30px; /* espacio interno */
+  border-radius: 15px; /* esquinas redondeadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra para profundidad */
+}
+
+.texto-quienes-somos h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #2a851e;
+}
+
+/*texto y imagen de que hacemos*/
+
+.contenido-que-hacemos {
+  display: flex;
+  flex-direction: row-reverse; /* esto para invertir el orden imagen a la derecha */
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.imagen2 {
+  margin-left: 10px; /* espacio entre texto e imagen */
+}
+
+.imagen2 img {
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.texto-que-hacemos {
+  flex: 1;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #A5A97B; /* fondo del cuadro */
+  padding: 30px; /* espacio interno */
+  border-radius: 15px; /* esquinas redondeadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra para profundidad */
+}
+
+.texto-que-hacemos h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #2a851e;
+}
+
+.texto-que-hacemos h2 {
+  margin-top: 20px;
+  color: #000000;
+}
+
+/*el footer de copyright*/
+.footer {
+  background-color: #3e5d3d;
+  color: white;
+  padding: 40px 20px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around; /* espacio entre columnas */
+  flex-wrap: wrap;
+  max-width: 1000px; /* limita el ancho total */
+  margin: 0 auto; /* centra el contenedor para que ocupe toda la pantalla */
+}
+
+.footer-section {
+  max-width: 320px;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: left; /* alinea el texto hacia la izquierda */
+}
+
+.footer-section h2, .footer-section h3 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.logo-footer {
+  height: 25px;
+  margin-right: 8px;
+}
+
+.footer-section a {
+  color: #b2e7b2;
+  text-decoration: none;
+  border-bottom: 1px solid #b2e7b2;
+}
+
+.footer-section a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid white;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 25px;
+  border-top: 1px solid #5a7d58;
+  font-size: 14px;
+  margin-top: 20px;
+}
